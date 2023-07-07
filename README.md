@@ -1,28 +1,114 @@
-# Azure Admin Toolkit v1
+<h1 align="center">Azure Admin Toolkit v1.0</h1>
 
-The Azure Admin Toolkit v1 is a robust utility suite for Azure cloud services administration, providing automated deployment and configuration of resources, troubleshooting diagnostic tools, performance and security monitoring solutions, and versatile scripting utilities. It offers a seamless interface that integrates with existing Azure portals, facilitating effortless management of virtual machines, storage accounts, databases, networking, and more.
+<p align="center">
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/network/members">
+    <img src="https://img.shields.io/github/forks/Flynchd/azure-admin-toolkit-v1.svg?style=social" alt="Forks">
+  </a>
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/pulls">
+    <img src="https://img.shields.io/github/issues-pr/Flynchd/azure-admin-toolkit-v1.svg?style=social" alt="Pull Requests">
+  </a>
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/issues">
+    <img src="https://img.shields.io/github/issues/Flynchd/azure-admin-toolkit-v1.svg?style=social" alt="Open Issues">
+  </a>
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Flynchd/azure-admin-toolkit-v1.svg?style=plastic" alt="Contributors">
+  </a>
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/Flynchd/azure-admin-toolkit-v1.svg?style=plastic" alt="License">
+  </a>
+  <a href="https://github.com/Flynchd/azure-admin-toolkit-v1/stargazers">
+    <img src="https://img.shields.io/github/stars/Flynchd/azure-admin-toolkit-v1.svg?style=plastic" alt="Stars">
+  </a>
+</p>
 
-_NOTE This Azure Admin Toolkit v1 is still WIP_
+<p align="center">
+  The Azure Admin Toolkit v1 is an intuitive and robust PowerShell interface designed to simplify the management of Azure resources. The toolkit features 10 major capabilities, including Automated Deployment and Configuration, Diagnostic Tools, Performance Monitoring, and more, each with recommended scripts to carry out specific tasks. This interactive toolkit enhances efficiency, scalability, and governance in Azure administration by enabling users to select tasks from a nested menu and execute them seamlessly.
+</p>
+
+## Change Log
+**v1.0.0** (July, 2023)
+- Initial release with 10 main features: Automated Deployment and Configuration, Diagnostic Tools, Performance Monitoring, Security Monitoring, Scripting Utilities, User-Friendly Interface, Resource Management, Scalability, Cost Savings, and Enhanced Cloud Governance. 
 
 
-Features include:
+## Table of Contents
 
-**Automated Deployment and Configuration**: Streamlines the process of setting up and configuring resources in the Azure environment.
+1. [Automated Deployment and Configuration](#automated-deployment-and-configuration)
+2. [Diagnostic Tools](#diagnostic-tools)
+3. [Performance Monitoring](#performance-monitoring)
+4. [Security Monitoring](#security-monitoring)
+5. [Scripting Utilities](#scripting-utilities)
+6. [User-Friendly Interface](#user-friendly-interface)
+7. [Resource Management](#resource-management)
+8. [Scalability](#scalability)
+9. [Cost Savings](#cost-savings)
+10. [Enhanced Cloud Governance](#enhanced-cloud-governance)
 
-**Diagnostic Tools**: Provides solutions for identifying and resolving issues within the Azure infrastructure.
+## Features and Recommended Scripts
 
-**Performance Monitoring**: Enables real-time tracking of system performance to ensure optimal operation.
+### [Automated Deployment and Configuration](#automated-deployment-and-configuration)
+Accelerate the setup of Azure resources and eliminate complexity. Recommended scripts:
+- `DeployAzureResources.ps1`
+- `ConfigureAzureNetwork.ps1`
+- `SetupAzureStorageAccounts.ps1`
 
-**Security Monitoring**: Provides tools for securing Azure resources and detecting potential threats.
+### [Diagnostic Tools](#diagnostic-tools)
+Resolve issues swiftly and ensure your services are always operational. Recommended scripts:
+- `DiagnoseAzureVMIssues.ps1`
+- `AnalyzeAzureNetworkDiagnostics.ps1`
+- `AzureStorageAccountHealthCheck.ps1`
 
-**Scripting Utilities**: Supports scripts in popular languages like PowerShell and Python for custom automation and management tasks.
+### [Performance Monitoring](#performance-monitoring)
+Track and manage your resources' performance proactively. Recommended scripts:
+- `MonitorAzureVMPerformance.ps1`
+- `TrackAzureStoragePerformance.ps1`
+- `AzureSQLPerformanceAudit.ps1`
 
-**User-Friendly Interface**: Integrates with existing Azure portals, making it easy to manage resources.
+### [Security Monitoring](#security-monitoring)
+Stay ahead of threats and maintain compliance. Recommended scripts:
+- `AuditAzureSecurity.ps1`
+- `MonitorAzureFirewallLogs.ps1`
+- `CheckAzureIdentityAndAccess.ps1`
 
-**Resource Management**: Facilitates efficient management of virtual machines, storage accounts, databases, and networking components.
+### [Scripting Utilities](#scripting-utilities)
+Automate routine tasks and enhance productivity. Recommended scripts:
+- `AzureAutomationScripts.ps1`
+- `AzureScriptingUtility.ps1`
+- `AzurePowershellScriptManager.ps1`
 
-**Scalability**: Designed to adapt and perform efficiently as your Azure infrastructure grows.
+### [User-Friendly Interface](#user-friendly-interface)
+Experience a seamless, intuitive Azure management interface. Recommended scripts:
+- `InvokeAzureDashboard.ps1`
+- `GenerateAzureResourceReport.ps1`
+- `DisplayAzureBillingInfo.ps1`
 
-**Cost Savings**: Helps in identifying unused resources and provides insights for cost optimization.
+### [Resource Management](#resource-management)
+Optimize the management of your Azure resources. Recommended scripts:
+- `ManageAzureVMs.ps1`
+- `ControlAzureStorageAccounts.ps1`
+- `OperateAzureDatabases.ps1`
 
-**Enhanced Cloud Governance**: Ensures best practices for managing Azure resources and policies.
+### [Scalability](#scalability)
+Adapt to changing demands and optimize resource usage. Recommended scripts:
+- `ScaleAzureVMs.ps1`
+- `AzureStorageScalabilityCheck.ps1`
+- `ScaleAzureSQLDatabases.ps1`
+
+### [Cost Savings](#cost-savings)
+Manage your Azure expenditure and optimize resources for cost-effectiveness. Recommended scripts:
+- `AnalyzeAzureCosts.ps1`
+- `OptimizeAzureResources.ps1`
+- `ReduceAzureStorageCosts.ps1`
+
+### [Enhanced Cloud Governance](#enhanced-cloud-governance)
+Strengthen control and improve overall cloud governance. Recommended scripts:
+- `EnforceAzurePolicies.ps1`
+- `CheckAzureCompliance.ps1`
+- `AuditAzureResourceUsage.ps1`
+
+By adopting the Azure Admin Toolkit v1, you're not just choosing a toolkit, you're choosing a **smarter, more effective, and efficient way to manage your Azure environment**. It's about time you elevated your Azure management experience!
+
+
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/Flynchd/aws-admin-toolkit-v1/blob/master/LICENSE).
